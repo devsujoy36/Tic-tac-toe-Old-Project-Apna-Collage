@@ -96,7 +96,7 @@ main {
 .box:active,
 .reset-btn:active,
 .new-btn:active {
-    box-shadow: 0 0 0 1px yellow;
+    box-shadow: 0 0 0 1px rgb(248, 248, 2);
     transform: scale(.95);
 }
 
