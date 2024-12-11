@@ -22,12 +22,10 @@ boxes.forEach((box) => {
             turn = 'true';
             
         }
-        
         box.disabled = true;
         cheakWinner();
     })
 })
-
 
 const cheakWinner = () =>{
     for (const partern of winPatterns) {
@@ -39,7 +37,6 @@ const cheakWinner = () =>{
             if (posi1Val === posi2Val && posi2Val === posi3Val) {
                 showWinner(posi1Val);
             }
-            
         }  
     };
 }
@@ -73,9 +70,6 @@ const resetGame = () => {
     enableBoxes();
     msgContainer.classList.add("hide")
 };
-
-
-
 
 
 
